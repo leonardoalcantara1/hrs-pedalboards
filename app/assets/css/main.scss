@@ -1,0 +1,129 @@
+@import "foundation";
+
+$azul: #1e272b;
+$azul-escuro: #121618;
+$vermelho: #d14841;
+$bordo: #523838;
+$preto: #202020;
+
+@mixin oswald(){
+	font-family: "Oswald", sans-serif;
+	letter-spacing: 1px;
+}
+
+body {
+	&, input, p {
+		font-family: 'Open Sans', sans-serif;
+	}
+	h1, h2, h3, h4, h5 {
+		@include oswald;
+	}
+	header {
+		background: $azul-escuro;
+		nav {
+			padding-top: 2px;
+			height: 38px;
+			line-height: 38px;
+			a {
+				color: #fff;
+				font-size: 12px;
+				&.account {
+					background: $azul;
+					padding: 0px 10px;
+					border-top-left-radius: 4px;
+					border-top-right-radius: 4px;
+					height: 32px;
+					line-height: 32px;
+					margin-top: 4px;
+					i {
+						margin-right: 6px;
+					}
+				}
+				&.float-right {
+					margin-left: 20px;
+				}
+			}
+		}
+		.search-bar {
+			padding: 20px 0px;
+			background: $azul;
+			& > .row {
+				display: table;
+				width: 100%;
+				.columns {
+					float: none !important;
+					display: table-cell;
+					vertical-align: middle;
+				}
+
+				.logo {
+					svg {
+						width: 130px;
+						path {
+							fill: #fff;
+						}
+					}
+				}
+
+				.search {
+					position: relative;
+					input {
+						width: 100%;
+						border-radius: 4px;
+						padding-right: 40px;
+						height: 40px;
+						outline: none !important;
+						margin-bottom: 0px;
+					}
+					button {
+						position: absolute;
+						height: 40px;
+						width: 40px;
+						background: $vermelho;
+						color: #fff;
+						border-radius: 4px;
+						right: .9375rem;
+						margin-top: -40px;
+					}
+				}
+
+				span.hello, a.login {
+					@include oswald;
+					font-size: 18px;
+					color: #fff;
+					&.hello {
+						font-weight: 600;
+						font-style: italic;
+						text-align: center;
+					}
+					&.login {
+						text-align: right;
+						strong {
+							font-weight: 900;
+						}
+					}
+				}
+			}
+		}
+	}
+	menu {
+		background: rgba(#1e272b, 0.78);
+		height: 46px;
+		line-height: 46px;
+		text-align: center;
+		margin: 0px;
+		position: relative;
+		z-index: 9;
+		a {
+			display: inline-item;
+			@include oswald;
+			color: #fff;
+			font-size: 18px;
+			font-weight: 900;
+			margin: 0px 20px;
+		}
+	}
+}
+
+@import "pages/home";
+@import "pages/slider";
