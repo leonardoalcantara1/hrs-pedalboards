@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+	<meta charset="UTF-8">
+	<title>HRS Pedalboards - Simulador</title>
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link rel="stylesheet" href="css/style.css">
+
+
+
+
+</head>
+<body ng-controller="AppController">
+	<header>
+
+
+
+		<div class="row">
+			<div class="column">
+				<label>
+					PedalBoard
+					<select ng-model="activeBoard">
+						<option value="" selected>Escolha o Modelo</option>
+						<option value="{{board.url}}" ng-repeat="board in boards">{{board.name}}</option>
+					</select>
+				</label>
+			</div>
+			<div class="column" ng-show="activeBoard">
+				<label>
+					Adicionar Pedal
+					<select id="add-pedal-marca" ng-model="marcaSelect" ng-change="addMarca()">
+						<option value="" selected>Selecione a Marca</option>
+						<option value="{{marca}}" ng-repeat="(key, marca) in marcas">{{marca}}</option>
+					</select>
+				</label>
+			</div>
+			<div class="column" ng-show="marcaSelect && marcaSelect != 'Personalizado'">
+				<label>
+					<select id="add-pedal" ng-model="pedalSelect" ng-change="addPedal()">
+						<option value="" selected>Selecione o Pedal</option>
+						<option value="{{pedal.url}}" ng-repeat="(key, pedal) in pedalsByMarca">{{pedal.name}}</option>
+					</select>
+				</label>
+			</div>
+			<div class="column" ng-show="marcaSelect == 'Personalizado'">
+				<label class="columns">
+					<form ng-submit="addCustom()">
+						(L)
+						<input type="number" ng-model="widthCustom">
+						x (A)
+						<input type="number" ng-model="heightCustom"> &nbsp;
+						cm
+						<button type="submit">
+							Add
+						</button>
+					</form>
+				</label>
+			</div>
+			<div class="column" ng-show="pedalsList.length">
+				<label>
+					Remover Pedal
+					<select id="remove-pedal" ng-model="removePedalSelect" ng-change="removePedal()">
+						<option value="" selected></option>
+						<option value="{{pedal.name}}" ng-repeat="pedal in pedalsList">{{pedal.name}}</option>
+					</select>
+				</label>
+			</div>
+		</div>
+	</header>
+
+	<div class="row container">
+		<main class="pedalboard">
+			<img class="board" ng-src="{{activeBoard}}" alt="" ng-if="activeBoard">
+			<img ng-src="{{pedal.url}}" alt="" class="pedal" ng-class="pedal.marca == 'Personalizado' ? 'custom' : ''" ng-repeat="pedal in pedalsList" ng-dblclick="rotate($event)" ng-style="pedal.marca == 'Personalizado' ? {'width': pedal.width+'px', 'height': pedal.height+'px'} : ''">
+		</main>
+	</div>
+
+	<center>
+	<div class="center">
+		<img src="./img/logo.png" title="Simulador HRS Pedalboards" width="10%">
+	</div>
+	</center>
+
+
+	<div id="dialog" title="Instruções">
+		1 - Escolha o Modelo / Tamanho do Pedalboard;<p>
+		2 - Seleciona a Marca do Pedal;<p>
+		3 - Selecione o Pedal desejado;<p>
+
+		*. DUPLO CLICK - Girar 90° o Pedal;<p>
+
+		Caso não encontre o pedal desejado, é possível adicionar um pedal <strong>personalizado</strong>.
+		Em Adicionar Pedal, escolha Personalizado e digite as Dimensões do Pedal e clique em ADD;
+
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="js/main.js"></script>
+
+
+  <script>
+		$( function() {
+			$( "#dialog" ).dialog({
+				width: 500
+			});
+		} );
+		$(window).load(function(){
+			$(".ui-button").unbind("click").click(function(){
+				if($(".ui-dialog").hasClass("active")){
+					$(".ui-dialog").removeClass("active");
+				} else {
+					$(".ui-dialog").addClass("active");
+				}
+			})
+		});
+	</script>
+
+</body>
+</html>

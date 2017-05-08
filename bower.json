@@ -1,0 +1,22 @@
+{
+  "name": "app",
+  "description": "",
+  "main": "",
+  "authors": [
+    "foster"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.0",
+    "jquery-ui": "^1.12.1",
+    "angular": "angularjs#^1.6.4"
+  }
+}

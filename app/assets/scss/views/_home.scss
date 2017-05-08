@@ -1,0 +1,108 @@
+#home {
+
+	.description {
+		background: $grey-lighter;
+		font-size: 0.95em;
+		letter-spacing: -0.02em;
+	}
+
+	.label-boxes {
+		color: $blue;
+		font-size: 1.286em;
+	}
+
+	.grid {
+
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+
+		.box {
+			width: 216px;
+			padding: 20px 0px;
+			.title-box {
+				color: $blue-light;
+				font-size: 1.714em;
+				line-height: 1.12em;
+				padding: 8px 0px 5px;
+				letter-spacing: 0.02em;
+			}
+
+			.description-box {
+				font-size: 0.95em;
+			}
+		}
+
+	}
+
+	.bottom-highlight {
+		
+		position: relative;
+		background: $blue-light;
+		color: white;
+		padding: 20px 77px;
+
+		.wrap {
+			width: 100%;
+
+			display: flex;
+			justify-content: space-between;			
+			
+			.left, .divider, .right {
+				display: inline-block;
+			}
+			
+			.left {
+				.title-bottom {
+					color: $blue;
+					font-size: 2em;
+					font-family: $allianz-sans;
+				}
+				.description-highlight {
+					font-size: 1.071em;
+				}
+			}
+
+			.divider {
+				font-size: 0px;
+			}
+
+			.right {
+				background: url(../img/home/button-bottom-highlight.png) no-repeat;
+				width: 271px;
+				height: 71px;
+				align-self: center;
+				position: relative;
+				padding: 16px 46px 0px 16px;
+				font-size: 1.1em;
+				line-height: 1.3em;
+				color: white;
+				&:after {
+					content: ' ';
+					background: url(../img/home/arrows.png) no-repeat;
+					width: 13px;
+					height: 16px;
+					position: absolute;
+					right: 20px;
+					top: 50%;
+					@include translateY(-50%);
+				}
+			}
+		}
+
+		&:after {
+			content: ' ';
+			position: absolute;
+			bottom: 0px;
+			right: 0px;
+			width: 0px;
+			height: 0px;
+			box-sizing: content-box;
+			$border-width: 18px;
+			border: $border-width solid transparent;
+			border-bottom-color: $grey-light;
+			border-right-color: $grey-light;
+		}
+
+	}
+}

@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'allianz_sanslight';
+    src: url('../fonts/allianz-light.woff2') format('woff2'),
+         url('../fonts/allianz-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'allianz_sanslight';
+    src: url('../fonts/allianz-light-italic.woff2') format('woff2'),
+         url('../fonts/allianz-light-italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'allianz_sanslight';
+    src: url('../fonts/allianz-regular.woff2') format('woff2'),
+         url('../fonts/allianz-regular.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'allianz_sansregular';
+    src: url('../fonts/allianz-regular.woff2') format('woff2'),
+         url('../fonts/allianz-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'allianz_sansregular';
+    src: url('../fonts/allianz-bold.woff2') format('woff2'),
+         url('../fonts/allianz-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+$allianz-light: 'allianz_sanslight', sans-serif;
+$allianz-sans: 'allianz_sansregular', sans-serif;

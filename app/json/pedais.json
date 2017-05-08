@@ -1,0 +1,1052 @@
+{
+    "marcas": [
+        "Personalizado",
+        "AguilarAmp",
+        "AMT",
+        "AnalogMan",
+        "Arc Effects",
+        "Behringer",
+        "Black Arts",
+        "Blackstar",
+        "Bogner",
+        "Bondi Effects",
+        "BOSS",
+        "Carl Martin",
+        "Darkglass",
+        "Digitech",
+        "EarthQuaker",
+        "EHX",
+        "Emerson",
+        "EmpressEffects",
+        "Ernieball",
+        "Eventide",
+        "Fender",
+        "Fire",
+        "Fulltone",
+        "Hardwire",
+        "Hotone",
+        "Ibanez",
+        "ISP",
+        "JHS",
+        "JRockett",
+        "Kelley",
+        "King Pedals",
+        "Korg",
+        "Line 6",
+        "Malekko",
+        "Marshal",
+        "MesaBoog",
+        "MI Effects",
+        "Mission",
+        "MJM",
+        "Mooer",
+        "Morley",
+        "MXR",
+        "Neunaber",
+        "Nig",
+        "Nux",
+        "Petty Jhon",
+        "Proco",
+        "Samson",
+        "Stomp Audio",
+        "Strymon",
+        "Suhr",
+        "T1M",
+        "TC Eletronics",
+        "Top Tone",
+        "T-REX",
+        "V.O Custom",
+        "Voodoo",
+        "Vox",
+        "VTR Effects",
+        "Walrus Audio",
+        "Way Huge"
+        
+        
+    ],
+    "pedais": [
+        {
+            "marca":"AguilarAmp",
+            "url":"PEDALS/AguilarAmp/ToneHammer.png",
+            "name": "ToneHammer"
+        },
+        {
+            "marca":"AMT",
+            "url":"PEDALS/AMT/SS20.png",
+            "name": "SS20"
+        },
+        {
+            "marca":"AnalogMan",
+            "url":"PEDALS/AnalogMan/KingOfTone.png",
+            "name": "KingOfTone"
+        },
+        {
+            "marca":"Arc Effects",
+            "url":"PEDALS/Arc Effects/BIG Green.png",
+            "name": "BIG Green"
+        },
+        {
+            "marca":"Behringer",
+            "url":"PEDALS/Behringer/RV-600.png",
+            "name": "RV-600"
+        },
+        {
+            "marca":"Behringer",
+            "url":"PEDALS/Behringer/TU-300.png",
+            "name": "TU-300"
+        },
+        {
+            "marca":"Black Arts",
+            "url":"PEDALS/Black Arts/Pharaoh Fuzz.png",
+            "name": "Black Pharaoh Fuzz"
+        },
+        {
+            "marca":"BlackStar",
+            "url":"PEDALS/BlackStar/Blackstar.png",
+            "name": "Blackstar"
+        },
+        {
+            "marca":"Bogner",
+            "url":"PEDALS/Bogner/BURNLEY.png",
+            "name": "BURNLEY"
+        },
+        {
+            "marca":"Bogner",
+            "url":"PEDALS/Bogner/ECSTASY-BLUE.png",
+            "name": "ECSTASY-BLUE"
+        },
+        {
+            "marca":"Bogner",
+            "url":"PEDALS/Bogner/ECSTASY-RED.png",
+            "name": "ECSTASY-RED"
+        },
+        {
+            "marca":"Bogner",
+            "url":"PEDALS/Bogner/WESSEX.png",
+            "name": "WESSEX"
+        },
+        {
+            "marca":"Bondi Effects",
+            "url":"PEDALS/Bondi Effects/DelMar.png",
+            "name": "Bondi DelMar"
+        },
+        {
+            "marca":"Bondi Effects",
+            "url":"PEDALS/Bondi Effects/Sick As.png",
+            "name": "Bondi Sick As"
+        },
+        {
+            "marca":"BOSS",
+            "url":"PEDALS/BOSS/AB-2.png",
+            "name": "AB-2"
+        },
+        {
+            "marca":"BOSS",
+            "url":"PEDALS/BOSS/AW-3.png",
+            "name": "AW-3"
+        },
+        {
+            "marca":"BOSS",
+            "url":"PEDALS/BOSS/CE-5.png",
+            "name": "CE-5"
+        },
+        {
+            "marca":"BOSS",
+            "url":"PEDALS/BOSS/DD-3.png",
+            "name": "DD-3"
+        },
+        {
+            "marca":"BOSS",
+            "url":"PEDALS/BOSS/DD20.png",
+            "name": "DD20"
+        },
+        {
+            "marca":"BOSS",
+            "url":"PEDALS/BOSS/DD500.png",
+            "name": "DD500"
+        },
+        {
+            "marca":"BOSS",
+            "url":"PEDALS/BOSS/DIGITALREVERB-RV5.png",
+            "name": "DIGITALREVERB-RV5"
+        },
+        {
+            "marca":"BOSS",
+            "url":"PEDALS/BOSS/FBM.png",
+            "name": "FBM"
+        },
+        {
+            "marca":"BOSS",
+            "url":"PEDALS/BOSS/FDR-1.png",
+            "name": "FDR-1"
+        },
+        {
+            "marca":"BOSS",
+            "url":"PEDALS/BOSS/FS-5U.png",
+            "name": "FS-5U"
+        },
+        {
+            "marca":"BOSS",
+            "url":"PEDALS/BOSS/GE-7.png",
+            "name": "GE-7"
+        },
+        {
+            "marca":"BOSS",
+            "url":"PEDALS/BOSS/GT-100.png",
+            "name": "GT-100"
+        },
+        {
+            "marca":"BOSS",
+            "url":"PEDALS/BOSS/gt10.png",
+            "name": "GT-10"
+        },
+        {
+            "marca":"BOSS",
+            "url":"PEDALS/BOSS/LoopStation RC1.png",
+            "name": "LoopStation RC1"
+        },
+        {
+            "marca":"BOSS",
+            "url":"PEDALS/BOSS/ME-20B.png",
+            "name": "ME-20B"
+        },
+        {
+            "marca":"BOSS",
+            "url":"PEDALS/BOSS/NS-2.png",
+            "name": "NS-2"
+        },
+        {
+            "marca":"BOSS",
+            "url":"PEDALS/BOSS/OC-3.png",
+            "name": "OC-3"
+        },
+        {
+            "marca":"BOSS",
+            "url":"PEDALS/BOSS/OD-3.png",
+            "name": "OD-3"
+        },
+        {
+            "marca":"BOSS",
+            "url":"PEDALS/BOSS/PS-5.png",
+            "name": "PS-5"
+        },
+        {
+            "marca":"BOSS",
+            "url":"PEDALS/BOSS/PS-6.png",
+            "name": "PS-6"
+        },
+        {
+            "marca":"BOSS",
+            "url":"PEDALS/BOSS/SD-1.png",
+            "name": "SD-1"
+        },
+        {
+            "marca":"BOSS",
+            "url":"PEDALS/BOSS/TR-2.png",
+            "name": "TR-2"
+        },
+        {
+            "marca":"BOSS",
+            "url":"PEDALS/BOSS/TU-3.png",
+            "name": "TU-3"
+        },
+        {
+            "marca":"Carl Martin",
+            "url":"PEDALS/Carl Martin/2Wah.png",
+            "name": "Carl 2Wah"
+        },
+        {
+            "marca":"Darkglass",
+            "url":"PEDALS/Darkglass/Microtubes Vintage.png",
+            "name": "Microtubes Vintage"
+        },
+        {
+            "marca":"Digitech",
+            "url":"PEDALS/Digitech/WHAMMY-DT.png",
+            "name": "WHAMMY-DT"
+        },
+        {
+            "marca":"Digitech",
+            "url":"PEDALS/Digitech/WHAMMY-V.png",
+            "name": "WHAMMY-V"
+        },
+        {
+            "marca":"EarthQuaker",
+            "url":"PEDALS/EarthQuaker/DreamCrush.png",
+            "name": "DreamCrush"
+        },
+        {
+            "marca":"EHX",
+            "url":"PEDALS/EHX/BIGMUFF.png",
+            "name": "BIGMUFF"
+        },
+        {
+            "marca":"EHX",
+            "url":"PEDALS/EHX/BIGMUFF_deluxe.png",
+            "name": "BIGMUFF_deluxe"
+        },
+        {
+            "marca":"EHX",
+            "url":"PEDALS/EHX/holy Grail.png",
+            "name": "Holy Grail"
+        },
+        {
+            "marca":"EHX",
+            "url":"PEDALS/EHX/LPB1.png",
+            "name": "LPB1"
+        },
+        {
+            "marca":"EHX",
+            "url":"PEDALS/EHX/MEMORYBOY.png",
+            "name": "MEMORYBOY"
+        },
+        {
+            "marca":"EHX",
+            "url":"PEDALS/EHX/MEMORYBOY1.png",
+            "name": "MEMORYBOY1"
+        },
+        {
+            "marca":"EHX",
+            "url":"PEDALS/EHX/MICROMETAL.png",
+            "name": "MICROMETAL"
+        },
+        {
+            "marca":"EHX",
+            "url":"PEDALS/EHX/MICROPOG.png",
+            "name": "MICROPOG"
+        },
+        {
+            "marca":"EHX",
+            "url":"PEDALS/EHX/NANOPOG.png",
+            "name": "NANOPOG"
+        },
+        
+        {
+            "marca":"EHX",
+            "url":"PEDALS/EHX/PULSAR.png",
+            "name": "PULSAR"
+        },
+        {
+            "marca":"EHX",
+            "url":"PEDALS/EHX/Q-Tron.png",
+            "name": "Q-Tron"
+        },
+        {
+            "marca":"EHX",
+            "url":"PEDALS/EHX/SOULFOOD.png",
+            "name": "SOULFOOD"
+        },
+        {
+            "marca":"EHX",
+            "url":"PEDALS/EHX/WORM.png",
+            "name": "WORM"
+        },
+        {
+            "marca":"Emerson",
+            "url":"PEDALS/Emerson/EM-DRIVE.png",
+            "name": "EM-DRIVE"
+        },
+        {
+            "marca":"EmpressEffects",
+            "url":"PEDALS/EmpressEffects/BUFFER+.png",
+            "name": "BUFFER+"
+        },
+        {
+            "marca":"EmpressEffects",
+            "url":"PEDALS/EmpressEffects/Compressor.png",
+            "name": "Compressor"
+        },
+        {
+            "marca":"EmpressEffects",
+            "url":"PEDALS/EmpressEffects/NEBULUS.png",
+            "name": "NEBULUS"
+        },
+        {
+            "marca":"EmpressEffects",
+            "url":"PEDALS/EmpressEffects/TapeDelay.png",
+            "name": "TapeDelay"
+        },
+        {
+            "marca":"EmpressEffects",
+            "url":"PEDALS/EmpressEffects/Tremolo2.png",
+            "name": "Tremolo2"
+        },
+        {
+            "marca":"Ernieball",
+            "url":"PEDALS/Ernieball/VP.png",
+            "name": "VP"
+        },
+        {
+            "marca":"Eventide",
+            "url":"PEDALS/Eventide/H9.png",
+            "name": "H9"
+        },
+        {
+            "marca":"Eventide",
+            "url":"PEDALS/Eventide/MODFACTORY.png",
+            "name": "MODFACTORY"
+        },
+        {
+            "marca":"Eventide",
+            "url":"PEDALS/Eventide/TIMEFACTORY.png",
+            "name": "TIMEFACTORY"
+        },
+        {
+            "marca":"Fender",
+            "url":"PEDALS/Fender/PT100.png",
+            "name": "PT100"
+        },
+        {
+            "marca":"Fire",
+            "url":"PEDALS/FIRE/BOOSTER.png",
+            "name": "BOOSTER"
+        },
+        {
+            "marca":"Fire",
+            "url":"PEDALS/FIRE/kronos.png",
+            "name": "Kronos"
+        },
+        {
+            "marca":"Fire",
+            "url":"PEDALS/FIRE/OVERDRIVE.png",
+            "name": "OverDrive"
+        },
+        {
+            "marca":"Fire",
+            "url":"PEDALS/FIRE/PHASER.png",
+            "name": "Phaser"
+        },
+        {
+            "marca":"Fire",
+            "url":"PEDALS/FIRE/ULTIMATE-DISTORTION.png",
+            "name": "ULTIMATE-DISTORTION"
+        },
+        {
+            "marca":"Fire",
+            "url":"PEDALS/FIRE/WAH.png",
+            "name": "WAH"
+        },
+        {
+            "marca":"Fulltone",
+            "url":"PEDALS/Fulltone/fulldrive2.png",
+            "name": "FullDrive2"
+        },
+        {
+            "marca":"Fulltone",
+            "url":"PEDALS/Fulltone/OCD.png",
+            "name": "OCD"
+        },
+        {
+            "marca":"Hardwire",
+            "url":"PEDALS/Hardwire/Supernatural.png",
+            "name": "Supernatural"
+        },
+        {
+            "marca":"Hotone",
+            "url":"PEDALS/Hotone/Tuner.png",
+            "name": "Tuner"
+        },
+        {
+            "marca":"Ibanez",
+            "url":"PEDALS/Ibanez/TS9.png",
+            "name": "TS9"
+        },
+        {
+            "marca":"Ibanez",
+            "url":"PEDALS/Ibanez/TS808.png",
+            "name": "TS808"
+        },
+        {
+            "marca":"ISP",
+            "url":"PEDALS/ISP/DECIMATOR.png",
+            "name": "Decimator"
+        },
+        {
+            "marca":"JHS",
+            "url":"PEDALS/JHS/CharlieBrown.png",
+            "name": "CharlieBrown"
+        },
+        {
+            "marca":"JHS",
+            "url":"PEDALS/JHS/Double.png",
+            "name": "Double"
+        },
+        {
+            "marca":"JHS",
+            "url":"PEDALS/JHS/MiniBomb.png",
+            "name": "MiniBomb"
+        },
+        {
+            "marca":"JHS",
+            "url":"PEDALS/JHS/MorningGlory.png",
+            "name": "MorningGlory"
+        },
+        {
+            "marca":"JHS",
+            "url":"PEDALS/JHS/Muffuleta.png",
+            "name": "Muffuleta"
+        },
+        {
+            "marca":"JHS",
+            "url":"PEDALS/JHS/SUPERBOLT.png",
+            "name": "Superbolt"
+        },
+        {
+            "marca":"JHS",
+            "url":"PEDALS/JHS/Sweet Tea.png",
+            "name": "Sweet Tea"
+        },
+        {
+            "marca":"JRockett",
+            "url":"PEDALS/Jrockett/Archerlkon.png",
+            "name": "Archerlkon"
+        },
+        {
+            "marca":"Kelley",
+            "url":"PEDALS/Kelley/Keeley Compressor Pro.png",
+            "name": "Compressor Pro"
+        },
+        {
+            "marca":"King Pedals",
+            "url":"PEDALS/KingPedals/BlackHorse.png",
+            "name": "BlackHorse"
+        },
+        {
+            "marca":"King Pedals",
+            "url":"PEDALS/KingPedals/BlueDiamond.png",
+            "name": "Blue Diamond"
+        },
+        {
+            "marca":"King Pedals",
+            "url":"PEDALS/KingPedals/Genesis.png",
+            "name": "Genesis"
+        },
+        {
+            "marca":"King Pedals",
+            "url":"PEDALS/KingPedals/Premium White.png",
+            "name": "Premium White"
+        },
+        {
+            "marca":"King Pedals",
+            "url":"PEDALS/KingPedals/Premium Yellow.png",
+            "name": "Premium Yellow"
+        },
+        {
+            "marca":"King Pedals",
+            "url":"PEDALS/KingPedals/SmallPanda.png",
+            "name": "Small Panda"
+        },
+        {
+            "marca":"Korg",
+            "url":"PEDALS/Korg/Turner.png",
+            "name": "Tuner"
+        },
+        {
+            "marca":"Line 6",
+            "url":"PEDALS/Line6/DL4.png",
+            "name": "DL4"
+        },
+        {
+            "marca":"Line 6",
+            "url":"PEDALS/Line6/ECHOPARK.png",
+            "name": "ECHOPARK"
+        },
+        {
+            "marca":"Line 6",
+            "url":"PEDALS/Line6/M5.png",
+            "name": "M5"
+        },
+        {
+            "marca":"Line 6",
+            "url":"PEDALS/Line6/M13.png",
+            "name": "M13"
+        },
+        {
+            "marca":"Malekko",
+            "url":"PEDALS/Malekko/EKKO616.png",
+            "name": "EKKO616"
+        },
+        {
+            "marca":"Marshal",
+            "url":"PEDALS/Marshal/SV-1.png",
+            "name": "SV-1"
+        },
+        {
+            "marca":"MesaBoog",
+            "url":"PEDALS/MesaBoog/GridSlammer.png",
+            "name": "Grid Slammer"
+        },
+        {
+            "marca":"MI Effects",
+            "url":"PEDALS/MI Efects/Super Crunch Box.png",
+            "name": "Super Crunch Box"
+        },
+        {
+            "marca":"Mission",
+            "url":"PEDALS/Mission/VP.png",
+            "name": "VP"
+        },
+        {
+            "marca":"MJM",
+            "url":"PEDALS/MJM/londonFuzz.png",
+            "name": "London Fuzz"
+        },
+        {
+            "marca":"Mooer",
+            "url":"PEDALS/Mooer/CHORUS.png",
+            "name": "CHORUS"
+        },
+        {
+            "marca":"Mooer",
+            "url":"PEDALS/Mooer/CRUNCHER.png",
+            "name": "CRUNCHER"
+        },
+        {
+            "marca":"Mooer",
+            "url":"PEDALS/Mooer/Trelicopter.png",
+            "name": "TRELICOPTER"
+        },
+        {
+            "marca":"Mooer",
+            "url":"PEDALS/Mooer/Tremulo.png",
+            "name": "TREMULO"
+        },
+        {
+            "marca":"Morley",
+            "url":"PEDALS/Morley/BADHORSIE2.png",
+            "name": "BADHORSIE 2"
+        },
+        {
+            "marca":"MXR",
+            "url":"PEDALS/MXR/10 BAND EQ.png",
+            "name": "10 BAND EQ"
+        },
+        {
+            "marca":"MXR",
+            "url":"PEDALS/MXR/ANALOGCHORUS.png",
+            "name": "ANALOG CHORUS"
+        },
+        {
+            "marca":"MXR",
+            "url":"PEDALS/MXR/BLUEBOX.png",
+            "name": "BLUEBOX"
+        },
+        {
+            "marca":"MXR",
+            "url":"PEDALS/MXR/carbonCopy.png",
+            "name": "CARBON COPY"
+        },
+        {
+            "marca":"MXR",
+            "url":"PEDALS/MXR/CUSTOMBADASS.png",
+            "name": "CUSTOM BADASS"
+        },
+        {
+            "marca":"MXR",
+            "url":"PEDALS/MXR/DISTORTION+.png",
+            "name": "DISTORTION+"
+        },
+        {
+            "marca":"MXR",
+            "url":"PEDALS/MXR/DYNACOMP.png",
+            "name": "DYNACOMP"
+        },
+        {
+            "marca":"MXR",
+            "url":"PEDALS/MXR/KFK1.png",
+            "name": "KFK1"
+        },
+        {
+            "marca":"MXR",
+            "url":"PEDALS/MXR/M80DI.png",
+            "name": "M80DI"
+        },
+        {
+            "marca":"MXR",
+            "url":"PEDALS/MXR/M87.png",
+            "name": "M87"
+        },
+        {
+            "marca":"MXR",
+            "url":"PEDALS/MXR/MICROAMP.png",
+            "name": "MICROAMP"
+        },
+        {
+            "marca":"MXR",
+            "url":"PEDALS/MXR/Noise Clamp.png",
+            "name": "NOISE CLAMP"
+        },
+        {
+            "marca":"MXR",
+            "url":"PEDALS/MXR/PHASE90.png",
+            "name": "PHASE90"
+        },
+        {
+            "marca":"MXR",
+            "url":"PEDALS/MXR/PHASE90EVH.png",
+            "name": "PHASE90 EVH"
+        },
+        {
+            "marca":"MXR",
+            "url":"PEDALS/MXR/SUPERBADASS.png",
+            "name": "SUPER BADASS"
+        },
+        {
+            "marca":"MXR",
+            "url":"PEDALS/MXR/WyldPhase.png",
+            "name": "WyldPhase"
+        },
+        {
+            "marca":"MXR",
+            "url":"PEDALS/MXR/ZACKWILLD.png",
+            "name": "ZACKWILLD"
+        },
+        {
+            "marca":"Neunaber",
+            "url":"PEDALS/Neunaber/EXP.png",
+            "name": "EXP"
+        },
+        {
+            "marca":"Neunaber",
+            "url":"PEDALS/Neunaber/SERAPHIM.png",
+            "name": "SERAPHIM"
+        },
+        {
+            "marca":"Neunaber",
+            "url":"PEDALS/Neunaber/WET.png",
+            "name": "WET"
+        },
+        {
+            "marca":"Nig",
+            "url":"PEDALS/NIG/AMP SIMULATOR.png",
+            "name": "AMP SIMULATOR"
+        },
+        {
+            "marca":"Nig",
+            "url":"PEDALS/NIG/DUALCHORUS.png",
+            "name": "DUAL CHORUS"
+        },
+        {
+            "marca":"Nig",
+            "url":"PEDALS/NIG/POWER-DISTORTION.png",
+            "name": "POWER-DISTORTION"
+        },
+        {
+            "marca":"Nux",
+            "url":"PEDALS/NUX/TimeForce.png",
+            "name": "TimeForce"
+        },
+        {
+            "marca":"Petty Jhon",
+            "url":"PEDALS/PettyJhon/1.png",
+            "name": "P1"
+        },
+        {
+            "marca":"Petty Jhon",
+            "url":"PEDALS/PettyJhon/2.png",
+            "name": "P2"
+        },
+        {
+            "marca":"PROCO",
+            "url":"PEDALS/PROCO/RAT2.png",
+            "name": "RAT2"
+        },
+        {
+            "marca":"Petty Jhon",
+            "url":"PEDALS/PettyJhon/1.png",
+            "name": "P1"
+        },
+        {
+            "marca":"Samson",
+            "url":"PEDALS/Samson/BassAttack.png",
+            "name": "BassAttack"
+        },
+        {
+            "marca":"Stomp Audio",
+            "url":"PEDALS/StompAudio/Amp.png",
+            "name": "Amp"
+        },
+        {
+            "marca":"Stomp Audio",
+            "url":"PEDALS/StompAudio/Cash.png",
+            "name": "Cash"
+        },
+        {
+            "marca":"Stomp Audio",
+            "url":"PEDALS/StompAudio/Juice.png",
+            "name": "Juice"
+        },
+        {
+            "marca":"Stomp Audio",
+            "url":"PEDALS/StompAudio/MotherFuzz.png",
+            "name": "Mother of Fuzz"
+        },
+        {
+            "marca":"Stomp Audio",
+            "url":"PEDALS/StompAudio/MrBrown.png",
+            "name": "Mr. Brown"
+        },
+        {
+            "marca":"Stomp Audio",
+            "url":"PEDALS/StompAudio/Waves.png",
+            "name": "Waves"
+        },
+        {
+            "marca":"Stomp Audio",
+            "url":"PEDALS/StompAudio/white.png",
+            "name": "White"
+        },
+        {
+            "marca":"Strymon",
+            "url":"PEDALS/Strymon/BIGSKY.png",
+            "name": "BIGSKY"
+        },
+        {
+            "marca":"Strymon",
+            "url":"PEDALS/Strymon/BLUESKY.png",
+            "name": "BLUESKY"
+        },
+        {
+            "marca":"Strymon",
+            "url":"PEDALS/Strymon/BRIGADIER.png",
+            "name": "BRIGADIER"
+        },
+        {
+            "marca":"Strymon",
+            "url":"PEDALS/Strymon/DECO.png",
+            "name": "DECO"
+        },
+        {
+            "marca":"Strymon",
+            "url":"PEDALS/Strymon/DIG.png",
+            "name": "DIG"
+        },
+        {
+            "marca":"Strymon",
+            "url":"PEDALS/Strymon/ELCAPISTAN.png",
+            "name": "ELCAPISTAN"
+        },
+        {
+            "marca":"Strymon",
+            "url":"PEDALS/Strymon/FLINT.png",
+            "name": "FLINT"
+        },
+        {
+            "marca":"Strymon",
+            "url":"PEDALS/Strymon/LEX.png",
+            "name": "LEX"
+        },
+        {
+            "marca":"Strymon",
+            "url":"PEDALS/Strymon/MOBIUS.png",
+            "name": "MOBIUS"
+        },
+        {
+            "marca":"Strymon",
+            "url":"PEDALS/Strymon/OLA.png",
+            "name": "OLA"
+        },
+        {
+            "marca":"Strymon",
+            "url":"PEDALS/Strymon/TAPFAVORIT.png",
+            "name": "TAP FAVORIT"
+        },
+        {
+            "marca":"Strymon",
+            "url":"PEDALS/Strymon/TIMELINE.png",
+            "name": "TIMELINE"
+        },
+        {
+            "marca":"Suhr",
+            "url":"PEDALS/SUHR/KOKO BOOST.png",
+            "name": "KOKO BOOST"
+        },
+        {
+            "marca":"Suhr",
+            "url":"PEDALS/SUHR/riot.png",
+            "name": "RIOT"
+        },
+        {
+            "marca":"T1M",
+            "url":"PEDALS/T1M/ThePearl.png",
+            "name": "ThePearl"
+        },
+        {
+            "marca":"TC Eletronics",
+            "url":"PEDALS/TCEletronics/ALTEREGO.png",
+            "name": "ALTER EGO"
+        },
+        {
+            "marca":"TC Eletronics",
+            "url":"PEDALS/TCEletronics/ALTEREGOX4.png",
+            "name": "ALTER EGO X4"
+        },
+        {
+            "marca":"TC Eletronics",
+            "url":"PEDALS/TCEletronics/BODYREZ.png",
+            "name": "BODYREZ"
+        },
+        {
+            "marca":"TC Eletronics",
+            "url":"PEDALS/TCEletronics/CORONA.png",
+            "name": "CORONA"
+        },
+        {
+            "marca":"TC Eletronics",
+            "url":"PEDALS/TCEletronics/CORONA_MINI.png",
+            "name": "CORONA MINI"
+        },
+        {
+            "marca":"TC Eletronics",
+            "url":"PEDALS/TCEletronics/DITTO.png",
+            "name": "DITTO"
+        },
+        {
+            "marca":"TC Eletronics",
+            "url":"PEDALS/TCEletronics/DITTODELUXE.png",
+            "name": "DITTO DELUXE"
+        },
+        {
+            "marca":"TC Eletronics",
+            "url":"PEDALS/TCEletronics/DITTOSTEREO.png",
+            "name": "DITTO STEREO"
+        },
+        {
+            "marca":"TC Eletronics",
+            "url":"PEDALS/TCEletronics/DITTOX2.png",
+            "name": "DITTO X2"
+        },
+        {
+            "marca":"TC Eletronics",
+            "url":"PEDALS/TCEletronics/FLASHBACK.png",
+            "name": "FLASHBACK"
+        },
+        {
+            "marca":"TC Eletronics",
+            "url":"PEDALS/TCEletronics/FLASHBACK-MINI.png",
+            "name": "FLASHBACK MINI"
+        },
+        {
+            "marca":"TC Eletronics",
+            "url":"PEDALS/TCEletronics/FLASHBACKX4.png",
+            "name": "FLASHBACK X4"
+        },
+        {
+            "marca":"TC Eletronics",
+            "url":"PEDALS/TCEletronics/HALLOFFAME.png",
+            "name": "HALLOFFAME"
+        },
+        {
+            "marca":"TC Eletronics",
+            "url":"PEDALS/TCEletronics/HALLOFFAME-MINI.png",
+            "name": "HALLOFFAME MINI"
+        },
+        {
+            "marca":"TC Eletronics",
+            "url":"PEDALS/TCEletronics/HYPERGRAVITY.png",
+            "name": "HYPERGRAVITY"
+        },
+        {
+            "marca":"TC Eletronics",
+            "url":"PEDALS/TCEletronics/NOVADELAY.png",
+            "name": "NOVADELAY"
+        },
+        {
+            "marca":"TC Eletronics",
+            "url":"PEDALS/TCEletronics/novasystem.png",
+            "name": "NOVA SYSTEM"
+        },
+        {
+            "marca":"TC Eletronics",
+            "url":"PEDALS/TCEletronics/PhaserElix.png",
+            "name": "PHASER ELIX"
+        },
+        {
+            "marca":"TC Eletronics",
+            "url":"PEDALS/TCEletronics/POLYTUNE.png",
+            "name": "POLYTUNE"
+        },
+        {
+            "marca":"TC Eletronics",
+            "url":"PEDALS/TCEletronics/POLYTUNE2-MINI.png",
+            "name": "POLYTUNE2-MINI"
+        },
+        {
+            "marca":"TC Eletronics",
+            "url":"PEDALS/TCEletronics/SPARCKBOST.png",
+            "name": "SPARCKBOST"
+        },
+        {
+            "marca":"TC Eletronics",
+            "url":"PEDALS/TCEletronics/SPARK.png",
+            "name": "SPARK"
+        },
+        {
+            "marca":"TC Eletronics",
+            "url":"PEDALS/TCEletronics/TRIPLEDELAY.png",
+            "name": "TRIPLEDELAY"
+        },
+        {
+            "marca":"TC Eletronics",
+            "url":"PEDALS/TCEletronics/VOICELIVE.png",
+            "name": "VOICELIVE"
+        },
+        {
+            "marca":"Top Tone",
+            "url":"PEDALS/Top Tone/DG1.png",
+            "name": "DG1"
+        },
+        {
+            "marca":"Top Tone",
+            "url":"PEDALS/Top Tone/DG2.png",
+            "name": "DG2"
+        },
+        {
+            "marca":"T-REX",
+            "url":"PEDALS/T-REX/CompNova.png",
+            "name": "COMP NOVA"
+        },
+        {
+            "marca":"T-REX",
+            "url":"PEDALS/T-REX/REPLICA.png",
+            "name": "REPLICA"
+        },
+        {
+            "marca":"V.O Custom",
+            "url":"PEDALS/V.O Custom/Coffe Drive.png",
+            "name": "COFF Drive"
+        },
+        {
+            "marca":"Voodoo",
+            "url":"PEDALS/VOODOO/Tremulo.png",
+            "name": "TREMULO"
+        },
+        {
+            "marca":"Vox",
+            "url":"PEDALS/VOX/DELAYLAB.png",
+            "name": "DELAYLAB"
+        },
+        {
+            "marca":"Vox",
+            "url":"PEDALS/VOX/TONELAB ST.png",
+            "name": "TONELAB ST"
+        },
+        {
+            "marca":"VTR Effects",
+            "url":"PEDALS/VTR Effects/Helios.png",
+            "name": "Helios"
+        },
+        {
+
+            "marca":"Walrus Audio",
+            "url":"PEDALS/Walrus Audio/deepSix.png",
+            "name": "DEEP SIX"
+        },
+        {
+
+            "marca":"Way Huge",
+            "url":"PEDALS/Way Huge/GreenHinoMKIV.png",
+            "name": "Green Hino MKIV"
+        }
+    ]
+}

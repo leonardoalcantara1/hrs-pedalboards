@@ -1,0 +1,21 @@
+header {
+	background: $grey-lighter;
+	
+	.row {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+		height: 97px;
+		padding: 8px 0px;
+		a {
+			font-size: 0px;
+		}
+
+		.allianz-logo {
+			@include translateY(24px);
+		}
+	}
+
+	margin-bottom: 40px;
+
+}

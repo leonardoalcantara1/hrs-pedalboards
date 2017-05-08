@@ -1,0 +1,34 @@
+[
+    {
+        "url": "PEDALS/Boards/40x25.png",
+        "name": "40x25" 
+    },
+    {
+        "url": "PEDALS/Boards/40x33.png",
+        "name": "40x33" 
+    },
+    {
+        "url": "PEDALS/Boards/50x33.png",
+        "name": "50x33" 
+    },
+    {
+        "url": "PEDALS/Boards/50x40.png",
+        "name": "50x40" 
+    },
+    {
+        "url": "PEDALS/Boards/60x33.png",
+        "name": "60x33" 
+    },
+    {
+        "url": "PEDALS/Boards/60x40.png",
+        "name": "60x40" 
+    },
+    {
+        "url": "PEDALS/Boards/70x33.png",
+        "name": "70x33" 
+    },
+    {
+        "url": "PEDALS/Boards/70x40.png",
+        "name": "70x40" 
+    }
+]

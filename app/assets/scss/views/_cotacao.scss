@@ -1,0 +1,150 @@
+#cotacao {
+	
+	.row {
+
+		display: flex;
+		justify-content: space-between;
+
+		padding: 30px 0px;
+
+		#cotacao-fields {
+
+			padding: 0px 60px;
+			width: 100%;
+
+			display: flex;
+			justify-content: space-between;
+			align-content: flex-start;
+			flex-wrap: wrap;
+
+			.title {
+				color: $blue;
+				font-weight: bold;
+				font-size: 1.43em;
+				padding-bottom: 4px;
+				border-bottom: 1px solid $blue;
+				-webkit-font-smoothing: initial;
+				width: 100%;
+			}
+
+			label {
+				
+				display: block;
+				margin-top: 20px;
+				font-size: 1.4em;
+				-webkit-font-smoothing: initial;
+				width: 100%;
+
+				&.column {
+					width: 216px;
+				}
+
+				input, select {
+					display: block;
+					margin-top: 4px;
+					width: 100%;
+					height: 44px;
+					border: 1px solid $grey-light;
+					background: $grey-lighter;
+					font-size: 0.8em;
+					padding: 4px;
+				}
+
+				label.error {
+					color: red;
+					font-size: 0.6em;
+					margin-top: 6px;
+				}
+
+				.group {
+					display: flex;
+					justify-content: space-between;
+					.field:nth-child(1) {
+						margin-right: 8px;
+					}
+					.field:nth-child(2) {
+						margin-left: 8px;
+					}
+
+					.ddd {
+						width: 50px;
+					}
+
+					.dig-cep {
+						width: 70px;
+					}
+				}
+
+			}
+
+			button {
+				margin-left: auto;
+				margin-top: 26px;
+				width: 216px;
+				height: 61px;
+				border: 1px solid darken($green, 20);
+				@include background-image(linear-gradient($green, darken($green, 20)));
+				color: white;
+				font-family: $allianz-light;
+				font-size: 1.6em;
+				text-shadow: 1px 1px 1px black;
+				letter-spacing: 0.05em;
+			}
+
+			.bottom-form {
+				font-size: 0.9em;
+				border-top: 1px solid $grey-light;
+				color: $grey;
+				padding: 10px 20px;
+				width: 100%;
+				margin-top: 60px;
+				letter-spacing: 0.04em;
+			}
+
+		}
+
+		#cotacao-side {
+			$spacing: 60px;
+			width: 256px + $spacing;
+			padding-right: $spacing;
+			.box {
+				display: block;
+				width: 256px;
+				padding: 20px 20px;
+				color: inherit;
+				.title-box {
+					color: $blue-light;
+					font-size: 1.714em;
+					line-height: 1.12em;
+					padding: 8px 0px 5px;
+					letter-spacing: 0.02em;
+				}
+
+				.description-box {
+					font-size: 0.95em;
+				}
+
+				&.active {
+					background: $blue-light;
+					position: relative;
+					.title-box, .description-box {
+						color: white;
+					}
+					&:after {
+						content: ' ';
+						position: absolute;
+						bottom: 0px;
+						right: 0px;
+						width: 0px;
+						height: 0px;
+						border: 12px solid transparent;
+						border-bottom-color: white;
+						border-right-color: white;
+					}
+				}
+			}
+		}
+
+	}
+
+}

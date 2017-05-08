@@ -1,0 +1,53 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: $grey-light;
+	
+	font-family: $allianz-light;
+	font-size: 14px;
+	color: $grey;
+	-webkit-font-smoothing: auto;
+
+	* {
+		box-sizing: border-box;
+	}
+
+	strong, b {
+		font-family: $allianz-sans;
+		font-weight: bold;
+		-webkit-font-smoothing: antialiased;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		margin: 0px;
+		font-weight: normal;
+		font-size: 1em;
+	}
+
+	p {
+		margin: 0;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	.row {
+		margin: 0 auto;
+		width: 960px;
+
+		.inner-container {
+			padding: 20px 77px;
+		}
+	}
+
+	section.content {
+		& > .row {
+			background: white;
+		}
+	}
+
+}
