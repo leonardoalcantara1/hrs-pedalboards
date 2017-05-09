@@ -63,7 +63,7 @@ myApp.controller('AppController', ['$scope', '$http', '$timeout', function($scop
 			var obj = {
 				"marca":"Personalizado",
 				"name":$scope.widthCustom+" x "+$scope.heightCustom,
-				"url": "/img/blank.gif",
+				"url": "/assets/img/blank.gif",
 				"width": widthPixel,
 				"height": heightPixel
 			};

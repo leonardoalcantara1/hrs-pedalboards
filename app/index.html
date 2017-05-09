@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="myApp">
+<html lang="pt_BR" ng-app="myApp">
 <head>
-
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<meta charset="UTF-8">
 	<title>Allianz Seguros</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700" rel="stylesheet">
 	
 	<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 	<link rel="stylesheet" href="assets/css/main.css">
 
 </head>
 <body ng-controller="AppController">
-	<header>
+	<!-- <header>
 		<div class="row">
 			<div class="column">
 				<label>
@@ -62,7 +65,32 @@
 				</label>
 			</div>
 		</div>
-	</header>
+	</header> -->
+
+	<div class="wizard">
+		<header>
+			<img src="/assets/img/logo.png" title="Simulador HRS Pedalboards">
+		</header>
+		<div class="clear"></div>
+		<div id="step-1">
+			<h2 class="text">
+				Escolha seu pedalboard:
+			</h2>
+			<div class="clear"></div>
+			<div class="list">
+				<button ng-repeat="board in boards" ng-click="setBoard(board.url)">{{board.name}}</button>
+			</div>
+		</div>
+		<div id="step-2">
+			<h2 class="text">
+				Escolha a marca do pedal:
+			</h2>
+			<div class="clear"></div>
+			<div class="list">
+				<button ng-repeat="(key, marca) in marcas" ng-click="setMarca(marca)">{{marca}}</button>
+			</div>
+		</div>
+	</div>
 
 	<div class="row container">
 		<main class="pedalboard">
@@ -71,48 +99,12 @@
 		</main>
 	</div>
 
-	<center>
-		<div class="center">
-			<img src="assets/img/logo.png" title="Simulador HRS Pedalboards" width="10%">
-		</div>
-	</center>
-
-
-	<div id="dialog" title="Instruções">
-		1 - Escolha o Modelo / Tamanho do Pedalboard;<p>
-		2 - Seleciona a Marca do Pedal;<p>
-		3 - Selecione o Pedal desejado;<p>
-
-		*. DUPLO CLICK - Girar 90° o Pedal;<p>
-
-		Caso não encontre o pedal desejado, é possível adicionar um pedal <strong>personalizado</strong>.
-		Em Adicionar Pedal, escolha Personalizado e digite as Dimensões do Pedal e clique em ADD;
-
-	</div>
-
 	<!-- Scripts -->
 	<script src="assets/lib/jquery.min.js"></script>
 	<script src="assets/lib/jquery-ui.min.js"></script>
 	<script src="assets/lib/touch.js"></script>
 	<script src="assets/lib/angular.min.js"></script>
 	<script src="assets/js/app.js"></script>
-
-	<script>
-		$( function() {
-			$( "#dialog" ).dialog({
-				width: 500
-			});
-		} );
-		$(window).load(function(){
-			$(".ui-button").unbind("click").click(function(){
-				if($(".ui-dialog").hasClass("active")){
-					$(".ui-dialog").removeClass("active");
-				} else {
-					$(".ui-dialog").addClass("active");
-				}
-			})
-		});
-	</script>
 
 </body>
 </html>
