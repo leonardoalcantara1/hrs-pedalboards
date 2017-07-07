@@ -67,12 +67,12 @@
 		</div>
 	</header> -->
 
-	<div class="wizard">
+	<div class="wizard" ng-if="wizard">
 		<header>
 			<img src="/assets/img/logo.png" title="Simulador HRS Pedalboards">
 		</header>
 		<div class="clear"></div>
-		<div id="step-1">
+		<div id="step-1" ng-if="!currentBoard">
 			<h2 class="text">
 				Escolha seu pedalboard:
 			</h2>
@@ -81,7 +81,7 @@
 				<button ng-repeat="board in boards" ng-click="setBoard(board.url)">{{board.name}}</button>
 			</div>
 		</div>
-		<div id="step-2">
+		<div id="step-2" ng-if="currentBoard && !tempPedals">
 			<h2 class="text">
 				Escolha a marca do pedal:
 			</h2>
@@ -90,18 +90,32 @@
 				<button ng-repeat="(key, marca) in marcas" ng-click="setMarca(marca)">{{marca}}</button>
 			</div>
 		</div>
+		<div id="step-3" ng-if="currentBoard && tempPedals">
+			<h2 class="text">
+				Escolha o seu pedal:
+			</h2>
+			<div class="clear"></div>
+			<div class="list">
+				<button ng-repeat="pedal in tempPedals" ng-click="setPedal(pedal)">{{pedal.name}}</button>
+			</div>
+		</div>
 	</div>
 
 	<div class="row container">
 		<main class="pedalboard">
-			<img class="board" ng-src="{{activeBoard}}" alt="" ng-if="activeBoard">
+			<img class="board" ng-src="{{currentBoard}}" alt="" ng-if="currentBoard && !wizard">
 			<img ng-src="{{pedal.url}}" alt="" class="pedal" ng-class="pedal.marca == 'Personalizado' ? 'custom' : ''" ng-repeat="pedal in pedalsList" ng-dblclick="rotate($event)" ng-style="pedal.marca == 'Personalizado' ? {'width': pedal.width+'px', 'height': pedal.height+'px'} : ''">
 		</main>
 	</div>
 
+	<button class="add-pedal" ng-if="!wizard" ng-click="openWizard()">
+		+
+	</button>
+
 	<!-- Scripts -->
 	<script src="assets/lib/jquery.min.js"></script>
 	<script src="assets/lib/jquery-ui.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.panzoom/3.2.2/jquery.panzoom.min.js"></script>
 	<script src="assets/lib/touch.js"></script>
 	<script src="assets/lib/angular.min.js"></script>
 	<script src="assets/js/app.js"></script>

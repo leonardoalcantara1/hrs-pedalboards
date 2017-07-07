@@ -22,26 +22,41 @@ myApp.controller('AppController', ['$scope', '$http', '$timeout', function($scop
 
 	$scope.pedalsList = [];
 
-	$scope.addMarca = function(){
-		var result = $.grep($scope.pedals, function(e){ return e.marca == $scope.marcaSelect; });
-		$scope.pedalsByMarca = result;
+	$scope.wizard = true;
+
+	$(".pedalboard").panzoom();
+
+	$scope.setBoard = function(url){
+		$scope.currentBoard = url;
+	};
+
+	$scope.setMarca = function(marca){
+		var result = $.grep($scope.pedals, function(e){ return e.marca == marca;
+		});
+		$scope.tempPedals = result;
 	}
 
-	$scope.addPedal = function(){
+	$scope.setPedal = function(pedal){
 
-		var result = $.grep($scope.pedalsList, function(e){ return e.url == $scope.pedalSelect; });
+		var result = $.grep($scope.pedalsList, function(e){ return e.url == pedal.url; });
 
 		if(!result.length){
-			$scope.pedalsList.push($.grep($scope.pedals, function(e){ return e.url == $scope.pedalSelect; })[0]);
+			$scope.pedalsList.push($.grep($scope.pedals, function(e){ return e.url == pedal.url;
+			})[0]);
 		}
 
-		$scope.pedalSelect = "";
+		$scope.wizard = false;
+		$scope.tempPedals = null;
 
 	}
 
 	$scope.removePedal = function(){
 		$scope.pedalsList = $.grep($scope.pedalsList, function(e){ return e.name != $scope.removePedalSelect; });
 		$scope.removePedalSelect = "";
+	}
+
+	$scope.openWizard = function(){
+		$scope.wizard = true;
 	}
 
 	$scope.rotate = function($event){

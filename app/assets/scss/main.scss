@@ -3,6 +3,7 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: 'Yanone Kaffeesatz', sans-serif;
+  // overflow: scroll;
   * {
     box-sizing: border-box;
   }
@@ -14,6 +15,7 @@ body {
   .wizard {
     background: rgba(255,255,255,0.9);
     position: fixed;
+    z-index: 1000;
     height: 100%;
     width: 100%;
     padding: 30px;
@@ -23,8 +25,11 @@ body {
     overflow-x: hidden;
 
     header {
+      position: fixed;
+      top: 30px;
+
       img {
-        width: 140px;
+        width: 120px;
       }
     }
 
@@ -45,6 +50,7 @@ body {
         transition: 0.5s;
         cursor: pointer;
         padding: 0px 20px;
+        outline: none;
         &:not(:first-child) {
           margin-top: 10px;
         }
@@ -52,9 +58,32 @@ body {
     }
   }
 
+  .add-pedal {
+    position: fixed;
+    z-index: 1000;
+    right: 20px;
+    bottom: 20px;
+    background: tomato;
+    color: white;
+    width: 50px;
+    line-height: 50px;
+    padding: 0px;
+    border: 0px;
+    font-size: 30px;
+    border-radius: 50%;
+    outline: none;
+    &:active {
+      width: 55px;
+      line-height: 55px;
+      right: 17.5px;
+      bottom: 17.5px;
+      font-size: 32px;
+    }
+  }
+
   .row {
     
-    width: 100%;
+    // width: 100%;
 
     &.container {
       background: #bdc3c7;
@@ -63,10 +92,11 @@ body {
     .pedalboard {
       width: 100%;
       position: relative;
-      overflow: hidden;
+      overflow: scroll;
       text-align: center;
       img.board {
-        max-width: calc(100% - 40px);
+        // max-width: calc(100% - 40px);
+        width: auto;
         margin: 20px;
       }
       .pedal {
